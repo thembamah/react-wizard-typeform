@@ -1,12 +1,11 @@
-import styled from 'styled-components/macro';
+import styled from "styled-components/macro";
 
-export const CheckboxWrapper = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: -8px;
-  margin-right: -8px;
-`
-
+export const RadioWrapper = styled.div`
+display: flex;
+flex-wrap: wrap;
+margin-bottom: -8px;
+margin-right: -8px;
+`;
 
 export const CheckboxOption = styled.label`
   padding: 10px 6px 7px 6px;

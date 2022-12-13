@@ -7,7 +7,7 @@ export const SelectWrapper = styled.div`
 export const InputSelect = styled.input`
   width: 100%;
   border: none;
-  color: #FFF;
+  color: rgb(38, 38, 38);
   background: none;
   font-size: 28px;
   transition: all .2s ease;
@@ -34,7 +34,7 @@ export const Option = styled.li`
   transition: all .3s ease;
   background-color: rgb(110, 199, 179);
   box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 1px inset;
-  color: rgb(255, 255, 255);
+  color: rgb(38, 38, 38);
   &:hover {
     background: rgb(142, 212, 196);
   }

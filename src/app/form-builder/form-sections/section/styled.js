@@ -9,7 +9,7 @@ export const SectionWrapper = styled.section`
 export const Text = styled.p`
   font-size: 24px;
   line-height: 32px;
-  color: #FFF;
+  color: rgb(38, 38, 38);
   text-align: center;
   margin-bottom: 28px;
 `
