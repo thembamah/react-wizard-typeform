@@ -65,26 +65,29 @@ export const ArrowsWrapper = styled.div`
   right: 25px;
   bottom: 25px;
   transition: all .3s ease;
-  opacity: ${props => props.show ? 1 : 0};
   visbility: ${props => props.show ? 'visible' : 'hidden'};
+  display: ${props => props.show ? 'flex' : 'none'};
+  
 `
 
 export const ArrowsButton = styled.button`
   width: 36px;
   min-width: 36px;
   height: 32px;
-  background: #FFF;
+  background-color: rgb(38, 38, 38);
   border: none;
   outline: none,
   display: flex;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0px 4px 4px 0px;
   align-items: center;
   justify-content: center;
   &:first-of-type {
-    border-radius: 4px 0 0 4px;
+    background-color: rgb(38, 38, 38);
+    color: rgb(229, 229, 229);
+    border-radius: 4px 0px 0px 4px;
     border-right: 1px solid rgba(128, 128, 128, 0.3);
   }
   svg {
-    fill: rgba(128, 128, 128);
+    fill: rgb(229, 229, 229);
   }
 `

@@ -307,7 +307,7 @@ const GlobalStyle = createGlobalStyle`
   .chromeframe {
       margin: 0.2em 0;
       background: #ccc;
-      color: #000;
+      color: rgb(38, 38, 38);
       padding: 0.2em 0;
   }
   

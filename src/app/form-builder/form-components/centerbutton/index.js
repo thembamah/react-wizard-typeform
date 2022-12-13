@@ -1,14 +1,15 @@
 import React from 'react';
 import { Button, ButtonWrapper } from './styled';
 
-const ButtonComp = ({ children, onClick }) => {
+const Centerbutton = ({ children, onClick }) => {
   return (
     <ButtonWrapper>
       <Button onClick={onClick}>
-        { children }
+        {children}
       </Button>
+      <div>press <strong>Enter ↵</strong></div>
     </ButtonWrapper>
   );
 }
 
-export default ButtonComp;
+export default Centerbutton;

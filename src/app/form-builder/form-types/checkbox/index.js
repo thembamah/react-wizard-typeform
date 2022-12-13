@@ -33,8 +33,8 @@ const Checkbox = ({ values, questionId, setValue, getValues, control }) => {
     <CheckboxWrapper>
       {values.map(val => (
         <CheckboxOption key={val.id}>
-          <img src={val.image} alt="" />
-          <span>{val.label}</span>
+          <span className='optionId'>{val.id}</span>
+          <span className='option'>{val.label}</span>
           <input
             defaultChecked={itemsChecked.some(item => item.id === val.id)}
             onClick={() => handleChange(val)}

@@ -1,8 +1,9 @@
-import React from 'react';
+import React from "react";
 import { SectionWrapper, Text } from './styled';
-import { ButtonComp } from 'app/form-builder/form-components';
+import { Centerbutton } from 'app/form-builder/form-components';
 
 const Section = ({ content, onNextStep, hideNextButton }) => {
+  
   return (
     <SectionWrapper>
       {content.map((item, index) => (
@@ -10,10 +11,11 @@ const Section = ({ content, onNextStep, hideNextButton }) => {
       ))}
 
       {!hideNextButton &&
-        <ButtonComp onClick={onNextStep}>Sure</ButtonComp>
+        <Centerbutton onClick={onNextStep}>Get Started</Centerbutton>
       }
     </SectionWrapper>
   );
 }
 
 export default Section;
+

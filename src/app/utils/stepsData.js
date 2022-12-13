@@ -19,18 +19,18 @@ const stepsData = [
     type: 'question',
     title: 'First off, are you using the product for business or personal use? *',
     subtitle: '',
+    hide_ok_button: true,
+    next_on_click: true,
     content: [
       {
-        type: 'radio-image',
+        type: 'radiobox',
         values: [
           {
             id: 1,
-            image: './business.png',
             label: 'Business',
           },
           {
             id: 2,
-            image: './personal.png',
             label: 'Personal',
           },
         ],

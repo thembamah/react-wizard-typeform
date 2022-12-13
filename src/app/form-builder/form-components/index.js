@@ -1,3 +1,4 @@
-import ButtonComp from "./button";
+import Okbutton from "./okbutton";
+import Centerbutton from "./centerbutton";
 
-export { ButtonComp };
+export { Okbutton, Centerbutton };

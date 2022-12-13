@@ -1,13 +1,25 @@
 import styled from 'styled-components/macro';
 
-export const InputWrapper = styled.div`
+export const TextareaWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -8px;
   margin-right: -8px;
+  div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    font-size: 12px;
+    color: rgb(38, 38, 38);
+    strong{
+      font-weight: 600;
+      margin-left: 4px
+    }
+  }
 `
 
-export const Input = styled.input`
+export const Textarea = styled.textarea`
     display: block;
     width: 100%;
     font-family: inherit;
